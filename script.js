@@ -2,13 +2,13 @@
 const teamIcon = document.querySelector(".bx-collapse-vertical");
 const team2 = document.querySelector(".team2");
 
-const addTeamMembers = function () {
-  team2.classList.toggle("hidden");
-};
+// const addTeamMembers = function () {
+//   team2.classList.toggle("hidden")
+// };
 
-const removeTeamMembers = function () {
-  team2.classList.add("hidden");
-};
+// const removeTeamMembers = function () {
+//   team2.classList.toggle("hidden");
+// };
 teamIcon.addEventListener("click", addTeamMembers);
 
 // for the form
